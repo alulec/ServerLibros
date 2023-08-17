@@ -20,7 +20,7 @@ inicioIndex = 1
 finalIndex = 300
 
 # Carpeta de destino para guardar las imágenes descargadas
-folderDestino = "/home/ubuntu/librosQuintoGrado"
+folderDestino = "./quintoGrado"
 os.makedirs(folderDestino, exist_ok=True)
 
 for link in links:

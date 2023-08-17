@@ -1,0 +1,16 @@
+Los cambios que propongo es mover el lugar de destino en el que se guardan
+los libros decargados ya que por default genera una carpeta en una direccion 
+pre cargada. Esto genera dos problemas el menos importante (ya que es una
+cuestion de probabilidad) es que exista una carpeta con el mismo nombre y por 
+ende no se pueda crear nuevamente y el que si que es un problema, que el script 
+no se ejecute en una maquina con el mismo sistema de archivos y por ende truene.
+
+Por lo demas creo que es adecuado que se descarge cada libro por separado, de
+esa forma tienes un control un poco mas directo sobre que descargar.
+
+El cambio que se hara es el siguiente:
+De esto....
+folderDestino = "/home/ubuntu/librosSegundoGrado"
+A esto....
+folderDestino = "./primerGrado"
+
